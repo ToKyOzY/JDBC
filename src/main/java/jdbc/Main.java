@@ -8,7 +8,7 @@ public class Main {
         DBWork db= new DBWork();
 
         //Connection methodunu cagır
-       Connection con= db.connect_to_db("techproed", "postgres","06Ankara06");
+       Connection con= db.connect_to_db("techproed", "postgres","*****");
 
         //Yeni table olusturma methodunu cagır
         db.createTable(con, "employees");
