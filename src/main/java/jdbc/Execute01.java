@@ -12,7 +12,7 @@ public class Execute01 {
         Class.forName("org.postgresql.Driver");
 
         //2. adım: Database'e baglan
-        Connection con=DriverManager.getConnection("jdbc:postgresql://localhost:5432/techproed","postgres","06Ankara06");
+        Connection con=DriverManager.getConnection("jdbc:postgresql://localhost:5432/techproed","postgres","*****");//sifre gorunecegi icin yıldız
 
         //3. adım: Statement olustur
         Statement st= con.createStatement();
