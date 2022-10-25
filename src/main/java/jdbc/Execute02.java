@@ -5,7 +5,7 @@ import java.sql.*;
 public class Execute02 {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Class.forName("org.postgresql.Driver");
-        Connection con=DriverManager.getConnection("jdbc:postgresql://localhost:5432/techproed","postgres","06Ankara06");
+        Connection con=DriverManager.getConnection("jdbc:postgresql://localhost:5432/techproed","postgres","****");//sifre gondugu icin yıldız
         Statement  st=con.createStatement();
 
         //1.Example: region id'si 1 olan "country name" değerlerini çağırın.
