@@ -9,7 +9,7 @@ public class Query02 {
         Class.forName("org.postgresql.Driver");
         Connection con= DriverManager.getConnection("jdbc:postgresql://localhost:5432/techproed",
                                                     "postgres",
-                                                  "06Ankara06");
+                                                  "*****");
         Statement st=con.createStatement();
         ResultSet data=st.executeQuery("select * from ogrenciler where cinsiyet='E'");
 
